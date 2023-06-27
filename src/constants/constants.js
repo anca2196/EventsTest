@@ -27,7 +27,7 @@ export const DummyData = [
   },
   {
     id: 3,
-    title: 'Office Part',
+    title: 'Office Party',
     description: 'Lorem Ipsum',
     startDate: new Date('2023-07-20 16:30'),
     endDate: new Date('2023-07-04'),
