@@ -1,0 +1,45 @@
+.small-event-card-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 25px;
+  background: linear-gradient(
+    152deg,
+    #fff 0%,
+    #fff 1.26%,
+    rgba(204, 164, 255, 0.2) 100%
+  );
+  box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.1);
+  padding: 6px 8px;
+  z-index: 1000;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 90%;
+  // min-width: 250px;
+
+  .small-event-image {
+    max-width: 26px;
+    max-height: 26px;
+    height: 26px;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      object-position: center;
+      height: 100%;
+    }
+  }
+
+  span.unchecked {
+
+    cursor: pointer;
+    margin-left: auto;
+  }
+  span.unchecked {
+    color: rgba(133, 133, 133, 0.808);
+  }
+  span.checked {
+    color: #3E008C;
+
+  }
+}

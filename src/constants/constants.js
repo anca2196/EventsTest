@@ -1,0 +1,67 @@
+export const DummyData = [
+  {
+    id: 1,
+    title: 'Intermediate React',
+    description: 'Lorem Ipsum',
+    startDate: new Date('2023-07-04 16:30'),
+    endDate: new Date('2023-07-04'),
+    image:
+      'https://www.orientsoftware.com/Themes/OrientSoftwareTheme/Content/Images/technologies/react-native/osd-react-native-1.png',
+    category: 'coding',
+    type: 'workshop',
+    speaker: 'John Doe',
+    isSubscribed: true,
+  },
+  {
+    id: 2,
+    title: 'Redux Basics',
+    description: 'Lorem Ipsum',
+    startDate: new Date('2023-07-16 16:30'),
+    endDate: new Date('2023-07-16'),
+    image:
+      'https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1489&q=80',
+    category: 'coding',
+    type: 'workshop',
+    speaker: 'John Doe',
+    isSubscribed: false,
+  },
+  {
+    id: 3,
+    title: 'Office Part',
+    description: 'Lorem Ipsum',
+    startDate: new Date('2023-07-20 16:30'),
+    endDate: new Date('2023-07-04'),
+    image:
+      'https://plus.unsplash.com/premium_photo-1684629279315-c4ebcfe56e98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80',
+    category: 'social',
+    type: 'party',
+    speaker: 'John Doe',
+    isSubscribed: false,
+  },
+  {
+    id: 4,
+    title: 'Security 101',
+    description: 'Lorem Ipsum',
+    startDate: new Date('2023-07-19 16:30'),
+    endDate: new Date('2023-07-04'),
+    image:
+      'https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1489&q=80',
+    category: 'coding',
+    type: 'workshop',
+    speaker: 'John Doe',
+    isSubscribed: false,
+  },
+  {
+    id: 5,
+    title: 'Teambuilding',
+    description: 'Lorem Ipsum',
+    startDate: new Date('2023-08-09 16:30'),
+    endDate: new Date('2023-07-04'),
+    image:
+      'https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
+    category: 'social',
+    type: 'party',
+    speaker: 'John Doe',
+    isSubscribed: false,
+  },
+];

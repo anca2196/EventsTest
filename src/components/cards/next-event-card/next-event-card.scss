@@ -1,0 +1,52 @@
+.next-event-card-container {
+  border-radius: 25px;
+  background: linear-gradient(
+    116deg,
+    rgba(189, 151, 247, 0.32) 0%,
+    rgba(189, 151, 247, 0) 100%
+  );
+  backdrop-filter: blur(6.199999809265137px);
+  padding: 19px 20px;
+
+  .next-event-card_top-section {
+    display: flex;
+    gap: 13px;
+
+    .next-event-card_image {
+      max-width: 80px;
+      max-height: 80px;
+      height: 80px;
+      img {
+        height: 100%;
+        background-color: #fff;
+        border-radius: 25px;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    .next-event-card_title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .next-event-card_type,
+    .next-event-card_speaker {
+      text-transform: capitalize;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+  .next-event-card_date {
+    border-radius: 25px;
+    background: #4b4b4b;
+    max-width: fit-content;
+    padding: 3px 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-top: 8px;
+  }
+}
